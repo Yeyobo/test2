@@ -1,0 +1,135 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+background-color: black;
+}
+#bar{
+    width: 1500px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.list{
+    color: black;
+
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+gap: 70px;
+text-decoration: none;
+}
+
+.list :hover{
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+border-radius: 30px;
+list-style: none;
+color: white;
+text-decoration: none;
+}
+
+.list :link{
+    text-decoration: none;
+color: black;
+}
+
+.B1 {
+background-color: rgb(10, 255, 10);
+border-radius: 10px;
+padding: 40px;
+width: 300px;
+border: none;
+position: fixed;
+top: 390px;
+left: 970px;
+animation: rgb2 2s infinite;
+
+}
+
+.B2  {
+background-color: rgb(255, 0, 0);
+border-radius: 10px;
+padding: 40px;
+width: 300px;
+border: none;
+position: fixed;
+top: 500px;
+left: 970px;
+animation: rgb2 4s infinite;
+}
+.lis{
+    gap: 30px;
+ padding: 80px;
+}
+.imgs{
+   
+    border: 10px solid white;
+animation: rgb 3s infinite;
+
+}
+
+@keyframes rgb{
+    0%{border: 5px solid red;}
+    25%{border: 5px solid yellow}
+    50%{border: 5px solid green;}
+    75%{border: 5px solid blue;}
+    100%{border: 5px solid red;}
+
+}
+
+@keyframes rgb2{
+    0%{background:   red;}
+    25%{background:  yellow;}
+    50%{background:  green;}
+    75%{background:   blue;}
+    100%{background:   red;}
+
+}
+
+.Agregar{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+background-color: white;
+border-radius: 20px;
+border: none};
+
+table, tr, td{
+    background-color: white;
+    border-color: solid white;
+    padding: 10px;
+    border: 2px;
+    text-align: center;
+}
+table{
+    background-color: grey;
+    border-color:white ;
+    border-collapse: collapse;
+    width: 60%;
+    height: 700px;
+}
+
+#patrion{
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: red;
+    display: flex;
+   left: 50%;
+}
+#patrion:hover{
+    transition: 1s;
+    width: 170px;
+    height: 170px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(146, 0, 0);
+}
+
+
+
+
